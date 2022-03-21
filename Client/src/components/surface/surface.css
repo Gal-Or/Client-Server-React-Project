@@ -1,0 +1,110 @@
+#surface-container {
+    width: 5px;
+    height: 5px;
+}
+
+#surface-container p {
+    text-align: center;
+    font-size: 1px;
+}
+
+.reg {
+    background-color: #5d77ec;
+}
+
+.road {
+    background-color: #444;
+}
+
+.park {
+    background-color: #79c300;
+}
+
+div#surface-container:hover {
+    transform: scale(10.5);
+    color: white;
+}
+
+div#surface-container:active {
+    transform: scale(25.5);
+}
+
+div#surface-container {
+    transition: transform .4s
+}
+
+#popup_wrapper {
+    position: absolute;
+    left: 0;
+}
+
+#parameters {
+    opacity: 0;
+    margin-right: 58vw;
+    /* margin-top: -22vw; */
+    font-size: 1.7vw;
+    border: 1px solid black;
+    border-radius: 17px;
+    padding: 0.5vw;
+    top: 1vw;
+    width: inherit;
+    text-align: center;
+}
+
+.mikra {
+    display: inline-block;
+    margin: auto;
+    width: 12%;
+}
+
+li {
+    list-style: none;
+    color: #fff;
+    padding: 0.5vw;
+    text-align: center;
+    margin-top: 0.5vw;
+    font-weight: bold;
+
+}
+
+.param_wrapper {
+    display: inline-flex;
+    width: 100%;
+    margin-top: -35vw;
+}
+
+
+a.connectToGame {
+    padding: .2vw;
+    margin-top: 3vw;
+    background-color: #5d77ec;
+    border-radius: 20px;
+}
+
+a.connectToGame:hover {
+    background-color: aqua;
+}
+
+.sale_btn {
+    width: 5vw;
+    padding: 0.1vw;
+    height: 2vw;
+    border-radius: 10px;
+}
+
+.true {
+    background-color: #79c300;
+    cursor: pointer;
+
+}
+
+.true:hover {
+    background-color: #21eb4d;
+    cursor: pointer;
+
+}
+
+.false {
+    background-color: #ec5d5d;
+    cursor: not-allowed
+}

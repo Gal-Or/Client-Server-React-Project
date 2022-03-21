@@ -1,0 +1,50 @@
+.seller_container{
+    overflow: auto;
+}
+.seller_surface{
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 1vw;
+    margin: .57vw;
+    width: auto;
+    height: auto;
+    background: linear-gradient(5deg, rgba(207, 218, 255, 0.623) 0%, rgba(163, 213, 255, 0.51) 35%, rgba(140, 167, 255, 0.541) 100%);
+    
+}
+
+.id, .first, .second, .third, .forth {
+    margin: auto;
+    display: inline-block;
+    width: 20%;
+    vertical-align: middle;
+    /* padding-left: 1vw; */
+    /* align-items: center; */
+    text-align: center;
+    
+}
+input[type="text"], input[type="number"]  {
+    margin: 3px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 3px;
+}
+input[type="submit"] {
+    padding: 3px 15px;
+    border-radius: 5px;
+    background-color: wheat;
+    /* background: none; */
+}
+
+input[type="submit"]:hover{
+    background: linear-gradient(5deg, rgba(207, 218, 255, 0.623) 0%, rgba(163, 213, 255, 0.51) 35%, rgba(140, 167, 255, 0.541) 100%);
+}
+
+.seller_surface input[type="checkbox"] {
+ width: 20px;
+height: 20px;
+}
+
+
+input[type="checkbox"], input[type="submit"]  {
+    cursor: pointer;
+}
